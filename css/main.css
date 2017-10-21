@@ -1,0 +1,44 @@
+body{/*selector padre*/
+  font-family: sans-serif;/*clase de familia para las letras:sans-serif*/
+}
+
+nav{
+  /*outline: 1px solid purple;*/
+  width: 200px;
+
+}
+ul{
+  /*outline: 1px solid yellow;/*hace un marcado de color amarillo ,esto no afecta significativamente a nuestra pagina*/
+  list-style: none;
+  padding: 0;/*eliminamos el padding*/
+  margin: 0;/*le quitamos el margin*/
+  line-height: 40px;/*hace un espacio entre lineas,permite cambiar el tamaño*/
+  background: #f5f5f0;
+}
+
+/*li{
+  outline: 1px solid red;
+}*/
+
+a{
+  /*outline: 1px solid green;*/
+  display: block;/*convertimos la etiqueta inline ancor a etiqueta de bloque para que nuestro enlace no solo se quede en la escritura,sino abarque todo el espacio,este efecto genera que desaparezca el outline*/
+  text-decoration: none;/*eliminamos la linea que  se encuentra debajo de la palabra*/
+  color:#000;/*color de la letra ,el caracter pertenece al color negro*/
+  padding-left: 9px;/*el padding crea un espacio asu izquierda de 9 px*/
+}
+
+a:hover{
+  background: #e0e0d1;/*fondo:gris claro*/
+  color: #000;/*color negro para la letra*/
+}
+
+a:active {/*al momento de hacer click en la etiqueta anchor,genera un efecto de color distinto al anterior*/
+  background:#333;/*gris oscuro*/
+  color: #fff;/*color blanco para las letras de la etiqueta anchor*/
+}
+
+ul li:first-child{/*estamos indicando al ul busque a su "primer hijo" que seria el primer li*/
+  background:#ffc107;
+  color:#fff;
+}
