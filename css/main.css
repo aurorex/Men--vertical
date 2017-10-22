@@ -9,7 +9,7 @@ nav{
 }
 ul{
   /*outline: 1px solid yellow;/*hace un marcado de color amarillo ,esto no afecta significativamente a nuestra pagina*/
-  list-style: none;
+  list-style: none;/*eliminamos las viñetas de nuestra etiqueta ul*/
   padding: 0;/*eliminamos el padding*/
   margin: 0;/*le quitamos el margin*/
   line-height: 40px;/*hace un espacio entre lineas,permite cambiar el tamaño*/
