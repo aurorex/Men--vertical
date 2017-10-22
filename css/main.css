@@ -22,7 +22,7 @@ ul{
 
 a{
   /*outline: 1px solid green;*/
-  display: block;/*convertimos la etiqueta inline ancor a etiqueta de bloque para que nuestro enlace no solo se quede en la escritura,sino abarque todo el espacio,este efecto genera que desaparezca el outline*/
+  display: block;/*convertimos la etiqueta inline anchor a etiqueta de bloque para que nuestro enlace no solo se quede en la escritura,sino abarque todo el espacio,este efecto genera que desaparezca el outline*/
   text-decoration: none;/*eliminamos la linea que  se encuentra debajo de la palabra*/
   color:#000;/*color de la letra ,el caracter pertenece al color negro*/
   padding-left: 9px;/*el padding crea un espacio asu izquierda de 9 px*/
