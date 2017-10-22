@@ -19,7 +19,7 @@ ul{
 /*li{
   outline: 1px solid red;
 }*/
-.inicio{/*estamos indicando al ul busque a su "primer hijo" que seria el primer li*/
+.inicio{/*usamos un selector clase*/
   background:#ffc107;
   color:#fff;
 }
