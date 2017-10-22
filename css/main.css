@@ -19,6 +19,11 @@ ul{
 /*li{
   outline: 1px solid red;
 }*/
+.inicio{/*estamos indicando al ul busque a su "primer hijo" que seria el primer li*/
+  background:#ffc107;
+  color:#fff;
+}
+
 
 a{
   /*outline: 1px solid green;*/
@@ -36,9 +41,4 @@ a:hover{
 a:active {/*al momento de hacer click en la etiqueta anchor,genera un efecto de color distinto al anterior*/
   background:#333;/*gris oscuro*/
   color: #fff;/*color blanco para las letras de la etiqueta anchor*/
-}
-
-ul li:first-child{/*estamos indicando al ul busque a su "primer hijo" que seria el primer li*/
-  background:#ffc107;
-  color:#fff;
 }
